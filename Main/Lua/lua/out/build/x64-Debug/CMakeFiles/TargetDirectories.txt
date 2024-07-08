@@ -1,0 +1,7 @@
+C:/Users/rafal/Desktop/PSU-Obfuscator/obf-dotnet/Lua/lua/out/build/x64-Debug/CMakeFiles/package.dir
+C:/Users/rafal/Desktop/PSU-Obfuscator/obf-dotnet/Lua/lua/out/build/x64-Debug/CMakeFiles/package_source.dir
+C:/Users/rafal/Desktop/PSU-Obfuscator/obf-dotnet/Lua/lua/out/build/x64-Debug/CMakeFiles/install/local.dir
+C:/Users/rafal/Desktop/PSU-Obfuscator/obf-dotnet/Lua/lua/out/build/x64-Debug/CMakeFiles/install.dir
+C:/Users/rafal/Desktop/PSU-Obfuscator/obf-dotnet/Lua/lua/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/rafal/Desktop/PSU-Obfuscator/obf-dotnet/Lua/lua/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/rafal/Desktop/PSU-Obfuscator/obf-dotnet/Lua/lua/out/build/x64-Debug/CMakeFiles/list_install_components.dir

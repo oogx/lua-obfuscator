@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29319.158
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loretta", "Loretta\Loretta.csproj", "{C9EF1345-C4FF-42C6-80B9-4C5AC1BAB6D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loretta.CLI", "Loretta.CLI\Loretta.CLI.csproj", "{05AF8761-D31F-400B-808A-F0FC52585935}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".notes", ".notes", "{97DA683A-E503-4D83-B3AF-D2A73B3A06D5}"
+	ProjectSection(SolutionItems) = preProject
+		.notes\number-parsing.md = .notes\number-parsing.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8765AA6-CF3D-405D-A37B-4B36E7685B73}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		nuget.config = nuget.config
+		README.md = README.md
+		THIRD-PARTY-NOTICES.txt = THIRD-PARTY-NOTICES.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loretta.InternalBenchmarks", "Loretta.InternalBenchmarks\Loretta.InternalBenchmarks.csproj", "{FD9ABE2B-EF10-416A-B0A8-3E68F72B48A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loretta.Tests", "Loretta.Tests\Loretta.Tests.csproj", "{C84FB448-E256-4804-893B-E1D6EB85EB1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9EF1345-C4FF-42C6-80B9-4C5AC1BAB6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EF1345-C4FF-42C6-80B9-4C5AC1BAB6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EF1345-C4FF-42C6-80B9-4C5AC1BAB6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EF1345-C4FF-42C6-80B9-4C5AC1BAB6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AF8761-D31F-400B-808A-F0FC52585935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AF8761-D31F-400B-808A-F0FC52585935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AF8761-D31F-400B-808A-F0FC52585935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AF8761-D31F-400B-808A-F0FC52585935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9ABE2B-EF10-416A-B0A8-3E68F72B48A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9ABE2B-EF10-416A-B0A8-3E68F72B48A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9ABE2B-EF10-416A-B0A8-3E68F72B48A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9ABE2B-EF10-416A-B0A8-3E68F72B48A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84FB448-E256-4804-893B-E1D6EB85EB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84FB448-E256-4804-893B-E1D6EB85EB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84FB448-E256-4804-893B-E1D6EB85EB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84FB448-E256-4804-893B-E1D6EB85EB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2976112B-0D4A-472A-9FD3-DFA4FFD326D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+X{a, b}X{n}                   => X{an} | X{an+1} | X{an+2} | ... | X{bn}
+X{an, bn}                     => X{a, b}X{n}
+
+X{a, b}X{n+1}                 => X{a(n+1)} | X{a(n+1)+1} | X{a(n+1)+2} | ... | X{b(n+1)}
+X{a(n+1), b(n+1)}             => X{a, b} | X{n+1}
+
+X{an, bn} | X{a(n+1), b(n+1)} => X{an} | X{an+1} | X{an+2} | ... | X{bn} | X{a(n+1)} | X{a(n+1)+1} | X{a(n+1)+2} | ... | X{b(n+1)}
+X{an, b(n+1)}                 => X{an} | X{an+1} | X{an+2} | ... | X{bn} | X{bn+1}   | X{bn+2}     | X{bn+3}     | ... | X{b(n+1)}
+
+
+bn >= a(n+1) - 1
+bn >= an + a - 1
+bn - an >= a - 1
+n(b - a) >= a - 1
+
+{a,b}{n,n+1} -> {an,b(n+1)}
+(1) (b - a)n - a + 1 >= 0
+
+X{a,b}{n+1,n+2} ≡ X{a(n+1), b(n+1)} | X{a(n+2), b(n+2)}
+(2) b(n+1) >= a(n+2) - 1 ≡ (b - a)n - a + 1 + b - a >= 0
+
+X{a, b}{n, m} if bn >= an 0
+base case: n = 1 → (b - a)·1 - a + 1 ≥ 0
+
+T(n) = (b - a)n - a + 1 ≥ 0
+T(n) = (b - a)(n - 1) - a + 1 + b - a ≥ 0
+T(n) = T(n - 1) + b - a ≥ 0
+∴ T(n-1) ≥ 0 → T(n) ≥ 0

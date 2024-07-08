@@ -1,0 +1,4 @@
+Settings {
+    Discord_Id: "123456",
+    File_Path: "./test.lua",
+}

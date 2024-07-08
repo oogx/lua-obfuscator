@@ -1,0 +1,21 @@
+Overflow/Underflow/Limis Hit:
+1. lhs + rhs <= min ∨ lhs + rhs >= max
+
+2. lhs - rhs <= min ∨ lhs - rhs >= max
+
+3. lhs * rhs <= min ∨ lhs * rhs >= max
+
+4. lhs / rhs <= min ∨ lhs / rhs >= max
+
+Transforming to saturated math tests:
+1.  overflow:  lhs + rhs >= max → lhs >= max - rhs ∧ rhs > 0 (signed, unsigned)
+    underflow: lhs + rhs <= min → lhs <= min - max ∧ rhs < 0 (signed)
+
+2.  overflow:  lhs - rhs <= min → lhs <= min + rhs ∧ rhs > 0 (signed, unsigned)
+    underflow: lhs - rhs >= max → lhs >= max + rhs ∧ rhs < 0 (signed)
+
+3.  overflow:  lhs * rhs >= max → lhs >= max / rhs (signed, unsigned)
+    underflow: lhs * rhs <= min → lhs <= min / rhs (signed)
+
+4.  overflow:  lhs / rhs <= min → lhs <= min * rhs (signed, unsigned)
+    underflow: lhs / rhs >= max → lhs >= max * rhs (signed)

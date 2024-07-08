@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="New Rule Set" Description=" " ToolsVersion="15.0">
+  <Rules AnalyzerId="CodeCracker.CSharp" RuleNamespace="CodeCracker.CSharp">
+    <Rule Id="CC0001" Action="None" />
+    <Rule Id="CC0020" Action="Warning" />
+    <Rule Id="CC0061" Action="None" />
+    <Rule Id="CC0062" Action="None" />
+    <Rule Id="CC0084" Action="None" />
+    <Rule Id="CC0105" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1001" Action="Warning" />
+    <Rule Id="CA1003" Action="Warning" />
+    <Rule Id="CA1011" Action="Warning" />
+    <Rule Id="CA1012" Action="Warning" />
+    <Rule Id="CA1013" Action="Warning" />
+    <Rule Id="CA1018" Action="Warning" />
+    <Rule Id="CA1019" Action="Warning" />
+    <Rule Id="CA1026" Action="Warning" />
+    <Rule Id="CA1027" Action="Warning" />
+    <Rule Id="CA1036" Action="Warning" />
+  </Rules>
+</RuleSet>

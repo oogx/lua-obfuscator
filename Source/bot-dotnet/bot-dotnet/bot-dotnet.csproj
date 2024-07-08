@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>bot_dotnet</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="obf-dotnet">
+      <HintPath>..\..\obf-dotnet\obf-dotnet\bin\Debug\netcoreapp3.1\obf-dotnet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
